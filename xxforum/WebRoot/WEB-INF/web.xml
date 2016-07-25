@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>servlet.Exit</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTopic</servlet-name>
+    <servlet-class>servlet.AddTopic</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>servlet.Delete</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTopicToFine</servlet-name>
+    <servlet-class>servlet.AddTopicToFine</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTopicToTop</servlet-name>
+    <servlet-class>servlet.AddTopicToTop</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditSectionName</servlet-name>
+    <servlet-class>servlet.EditSectionName</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelTopicFine</servlet-name>
+    <servlet-class>servlet.CancelTopicFine</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelTopicTop</servlet-name>
+    <servlet-class>servlet.CancelTopicTop</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SSection</servlet-name>
+    <servlet-class>servlet.SSection</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddReply</servlet-name>
+    <servlet-class>servlet.AddReply</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SReply</servlet-name>
+    <servlet-class>servlet.SReply</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSection</servlet-name>
+    <servlet-class>servlet.AddSection</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>servlet.Search</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+    <url-pattern>/servlet/Exit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddTopic</servlet-name>
+    <url-pattern>/servlet/AddTopic</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/servlet/Delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddTopicToFine</servlet-name>
+    <url-pattern>/servlet/AddTopicToFine</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddTopicToTop</servlet-name>
+    <url-pattern>/servlet/AddTopicToTop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>EditSectionName</servlet-name>
+    <url-pattern>/servlet/EditSectionName</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>CancelTopicFine</servlet-name>
+    <url-pattern>/servlet/CancelTopicFine</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>CancelTopicTop</servlet-name>
+    <url-pattern>/servlet/CancelTopicTop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>SSection</servlet-name>
+    <url-pattern>/servlet/SSection</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddReply</servlet-name>
+    <url-pattern>/servlet/AddReply</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>SReply</servlet-name>
+    <url-pattern>/servlet/SReply</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddSection</servlet-name>
+    <url-pattern>/servlet/AddSection</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/servlet/Search</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
